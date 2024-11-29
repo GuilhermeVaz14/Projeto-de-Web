@@ -1,4 +1,4 @@
-.Fundo{
+.Fundo,.f2{
     background-color: lightyellow;
     width: 80vw;
     height: 80vh;
@@ -12,23 +12,23 @@
     border-color: black;
     border-radius:  3%
 }
-#container{
+#container,#c2,#c3{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 4vw;
 }
-.fundoFoto{
+.fundoFoto,.ft2{
     width: 35vw;
     height: 20vw;
     border-style: solid;
     margin-top: 5vh;
 }
 
-#perguntas1{
+#perguntas1,#perguntas2{
     display: flex;
     padding-top: 3vh;
 }
-.opcao{
+.opcao,.o2{
     margin-right: 2vw;
 }
