@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,19 +8,41 @@
     h1{
         color: gold;
         font-size: 3rem;
+        justify-content: center;
+        display: flex;
     }
     html{
         background-color: lightgoldenrodyellow;
     }
     .k{
-        background-image: url(https://media.tenor.com/GNa8VEckPXQAAAAM/minions-despicable-me.gif);
+        background-image: url(https://media.tenor.com/cxhXkLhVpHEAAAAM/punch-it-kevin.gif);
             width: 13.3rem;
             height: 13.3rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    #ck{
+        display: flex;
+        justify-content: center;
+    }
+    @media (width >= 20px) {
+        #ck{
+            display: flex;
+            flex-wrap: wrap;
+        }
     }
     </style>
 </head>
 <body>
-    <h1 id="h1kelvin">Parabéns Você é Kelvin</h1>
-    <div class="k"></div>
+    <h1 id="h1kelvin">Parabéns Você é o Kelvin</h1>
+    <div id="ck">
+        <p>Kevin é alto, com dois olhos. <br>
+            Kevin adora fazer graça das pessoas ou Minions. <br>
+            Ele adora jogar Golf. <br>
+            Ele é o Líder do trio na procura por um novo Mestre. <br>
+            É o personagem mais responsável de todos. </p>
+        <div class="k"></div>
+    </div>
 </body>
 </html>

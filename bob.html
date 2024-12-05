@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +8,8 @@
     h1{
         color: gold;
         font-size: 3rem;
+        display: flex;
+        justify-content: center;
     }
     html{
         background-color: lightgoldenrodyellow;
@@ -16,11 +18,34 @@
             width: 13.3rem;
             height: 13.3rem;
             background-image: url(https://media.tenor.com/UGR8LpsMxS4AAAAM/minions-bob.gif);
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    #cb{
+        display: flex;
+        justify-content: center;
+    }
+    @media (width >= 20px) {
+        #cb{
+            display: flex;
+            flex-wrap: wrap;
         }
+    }
     </style>
 </head>
 <body>
     <h1 id="h1bob">Parabéns Você é Bob</h1>
-    <div class="b"></div>
+    <div id="cb">
+        <p>Bob é um minion baixo e careca, <br>
+         com um olho de cada cor. <br>
+         Ele carrega um urso de pelúcia que ele chama de Tim. <br>
+         Bob é um minion mais infantil do que os outros. <br>
+         Ele é descrito como o "irmãozinho" que encontra o amor e qualquer e todas as coisas. <br>
+         Ele também gosta de histórias antes de dormir e de brincar com o seu ursinho, Tim.
+        </p>
+        <div class="b"></div>
+
+    </div>
 </body>
 </html>
