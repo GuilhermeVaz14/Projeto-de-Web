@@ -22,6 +22,24 @@
     p{
         font-size: 1.5rem;
     }
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    #fk{
+        background-color: lightyellow;
+    width: 80rem;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    border-style: solid;
+    border-width: 0.2vw;
+    border-color: black;
+    border-radius:  3%
+    }
     #ck{
         display: flex;
         justify-content: center;
@@ -32,9 +50,11 @@
             flex-wrap: wrap;
         }
     }
+    
     </style>
 </head>
 <body>
+    <div id="fk">
     <h1 id="h1kelvin">Parabéns Você é o Kelvin</h1>
     <div id="ck">
         <p>Kevin é alto, com dois olhos. <br>
@@ -44,5 +64,6 @@
             É o personagem mais responsável de todos. </p>
         <div class="k"></div>
     </div>
+</div>
 </body>
 </html>
