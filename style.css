@@ -12,7 +12,7 @@
     border-color: black;
     border-radius:  3%
 }
-#container,#c2,#c3{
+#container,#c2,#c3,#c4,#c5,#c6,#c7,#c8,#c9,#c10{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +25,7 @@
     margin-top: 5vh;
 }
 
-#perguntas1{
+#perguntas1,#perguntas3,#perguntas7,#perguntas8,#perguntas9,#perguntas10,#perguntas2,#perguntas4,#perguntas5,#perguntas6{
     display: flex;
     padding-top: 3vh;
 }
