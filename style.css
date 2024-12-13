@@ -1,5 +1,5 @@
 .Fundo{
-    background-color: lightyellow;
+    background-color:gold;
     width: 80vw;
     height: 80vh;
     display: flex;
@@ -8,9 +8,14 @@
     padding-left: 5vw;
     padding-right: 5vw;
     border-style: solid;
-    border-width: 0.2vw;
-    border-color: black;
+    border-width: 1.5vw;
+    border-color: darkblue;
     border-radius:  3%
+}
+p{
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkblue;
 }
 #container,#c2,#c3,#c4,#c5,#c6,#c7,#c8,#c9,#c10{
     display: flex;
@@ -22,13 +27,38 @@
     width: 35vw;
     height: 20vw;
     border-style: solid;
-    margin-top: 5vh;
+    margin-top: 3vh;
 }
 
 #perguntas1,#perguntas3,#perguntas7,#perguntas8,#perguntas9,#perguntas10,#perguntas2,#perguntas4,#perguntas5,#perguntas6{
     display: flex;
-    padding-top: 3vh;
+    padding-top: 4vh;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
 }
 .opcao{
     margin-right: 2vw;
+    font-size: 1.1rem;
+}
+body{
+    background-image: url("https://i.pinimg.com/736x/80/3a/a5/803aa5f8c0c2c8784a94e615b0911126--minions.jpg");
+}
+#botao{
+    display: flex;
+    justify-content: center;
+}
+#bntenviar{
+    display: flex;
+    justify-content: center;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 6rem;
+    border: 5px solid black;
+}
+#bntimg{
+    border-radius: 6rem;
+    border-image: auto;
+    background-image: url("https://stat.ameba.jp/user_images/20220220/13/fdayudr/4d/8c/p/o0700072715077573171.png");
 }
