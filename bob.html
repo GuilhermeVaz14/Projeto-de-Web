@@ -41,6 +41,7 @@ width: 80%;
     #cb{
         display: flex;
         justify-content: center;
+        padding-bottom: 20vh;
     }
     @media (width >= 20px) {
         #cb{
@@ -56,7 +57,7 @@ width: 80%;
 <body>
     <div id="fb">
         <h1 id="h1bob">Parabéns Você é o Bob</h1>
-        <h2>0,0%</h2>
+        <h2 id="pontuacao">0,0%</h2>
         <div id="cb">
             <p>Bob é um minion baixo e careca, <br>
              com um olho de cada cor. <br>
@@ -69,6 +70,11 @@ width: 80%;
     
         </div>
     </div>
-
+    <script>
+        let result = document.getElementById("pontuacao");
+        const pontuacao = localStorage.getItem("pontuacaoFinal") || "0"; 
+        document.getElementById("pontuacao").textContent = `${pontuacao}%`;
+        
+    </script>
 </body>
 </html>

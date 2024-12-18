@@ -62,3 +62,6 @@ body{
     border-image: auto;
     background-image: url("https://stat.ameba.jp/user_images/20220220/13/fdayudr/4d/8c/p/o0700072715077573171.png");
 }
+#opcoes{
+    display: flex;
+}

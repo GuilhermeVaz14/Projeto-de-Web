@@ -56,7 +56,7 @@
 <body>
     <div id="fs">
         <h1>Parabéns Você é o Stuart</h1>
-        <h2>0,0%</h2>
+        <h2 id="pontuacao">0,0%</h2>
         <div id="cs">
             <p>Stuart é um Minion baixo de um olho só com o cabelo penteado. <br>
              Stuart é brincalhão e engraçado <br>
@@ -70,6 +70,11 @@
         </div>
     
     </div>
-    
+    <script>
+        let result = document.getElementById("pontuacao");
+        const pontuacao = localStorage.getItem("pontuacaoFinal") || "0"; 
+        document.getElementById("pontuacao").textContent = `${pontuacao}%`;
+        
+    </script>
 </body>
 </html>
