@@ -18,6 +18,8 @@
         #fi{
         background-color: transparent;
         background-image: url("https://th.bing.com/th/id/OIP.u2X0da40x8-2zE3V78mPvAHaEK?rs=1&pid=ImgDetMain");
+        width: 100%;
+        height: 100%;
     width: 80%;
     height: 60%;
     display: flex;
@@ -35,7 +37,7 @@
         color: darkblue;
     }
     #botao{
-        font-size: 2rem;
+        font-size: 3rem;
         font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif; 
         background-color: lightgoldenrodyellow;
         border: solid;
@@ -44,6 +46,30 @@
         height: 10vh;
         width: 20vw;
         margin-bottom: 2rem;
+    }
+    @media (width <= 500px) {
+        #botao{
+            font-size: 2rem;
+            display: flex;
+            justify-content: center;
+        }
+        h1{
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 2rem;
+        }
+    }
+    @media (width <= 250px) {
+        #botao{
+            font-size: 1.1rem;
+            display: flex;
+            justify-content: center;
+        }
+        h1{
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 1.5rem;
+        }
     }
     h1{
         font-size: 3rem;

@@ -12,9 +12,22 @@
     border-color: darkblue;
     border-radius:  3%
 }
+@media (width = 215px) {
+    #container,#c2,#c3,#c4,#c5,#c6,#c7,#c8,#c9,#c10{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (width >= 300px) {
+    .opcoes{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 p{
     font-size: 2rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
     color: darkblue;
 }
 #container,#c2,#c3,#c4,#c5,#c6,#c7,#c8,#c9,#c10{
