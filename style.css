@@ -67,14 +67,14 @@ body{
 }
 @media (max-width: 1000px) {
     .fundoFoto{
-        width: 50vw;
-        height: 30vh;
+        width: 45vw;
+        height: 25vh;
     }
     #numeroPergunta{
-        font-size: 4rem;
+        font-size: 2.5rem;
     }
     #pergunta{
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
     #opcoes{
         flex-direction: column;
@@ -82,24 +82,24 @@ body{
         
     }
     .opcao{
-        font-size: 2rem;
+        font-size: 1rem;
         transform: scale(1.5);
-        padding-top: 3vw;
+        padding-top: 4vw;
     }
     #btnPrx{
-        width: 20vw;
-        height: 10vw;
-        font-size: 1.5rem;
-        margin-top: 5vw;
+        width: 30vw;
+        height: 20vw;
+        font-size: 1.3rem;
+        margin-top: 1vw;
         background-color: rgb(25, 25, 203);
         color: white;
         border-radius: 20%;
     }
     #btnPrx:hover{
-        width: 20vw;
-        height: 10vw;
-        font-size: 1.5rem;
-        margin-top: 5vw;
+        width: 30vw;
+        height: 20vw;
+        font-size: 1.3rem;
+        margin-top: 1vw;
         background-color: rgb(35, 35, 255);
         color: white;
         border-radius: 20%;
